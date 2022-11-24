@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio control de versiones tema 3", "Ejercicio control de versiones tema 3\Ejercicio control de versiones tema 3.csproj", "{B75FCEAC-D9E1-483F-92A1-F2B9588DC402}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B75FCEAC-D9E1-483F-92A1-F2B9588DC402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75FCEAC-D9E1-483F-92A1-F2B9588DC402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75FCEAC-D9E1-483F-92A1-F2B9588DC402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75FCEAC-D9E1-483F-92A1-F2B9588DC402}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A64916E8-98EE-475E-99EF-2C44B2DA7BAF}
+	EndGlobalSection
+EndGlobal
