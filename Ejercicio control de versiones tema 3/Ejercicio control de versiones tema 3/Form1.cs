@@ -47,5 +47,54 @@ namespace Ejercicio_control_de_versiones_tema_3
                 coste = 0;
             txtPrecio.Text = coste.ToString() + " euros";
         }
+
+        private void button1_Click(object sender, System.EventArgs e)
+        {
+            string textoTelegrama;
+            char tipoTelegrama = ' ';
+            int numPalabras = 0;
+            double coste = 0;
+
+            //Leo el telegrama
+            textoTelegrama = txtTelegrama.Text;
+
+            // telegrama urgente?
+
+            if (cbUrgente.Checked)
+            {
+                tipoTelegrama = 'u';
+            }
+            else
+                tipoTelegrama = 'o';
+            //Obtengo el número de palabras que forma el telegrama
+
+            numPalabras = textoTelegrama.Length;
+
+
+            //Si el telegrama es ordinario
+            if (tipoTelegrama == 'o')
+
+            {
+                if (numPalabras <= 10)
+
+                    coste = 2.5;
+
+                else
+                    coste = (0.5 * numPalabras) - 2.5;
+
+
+                txtPrecio.Text = coste.ToString() + " euros";
+            }
+            else if (tipoTelegrama == 'u')
+            {
+                if (numPalabras <= 10)
+                    coste = 5;
+                else
+                    coste = (0.75 * numPalabras) - 5;
+            }
+            else
+                coste = 0;
+            txtPrecio.Text = coste.ToString() + " euros";
+        }
     }
 }
